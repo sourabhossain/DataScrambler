@@ -8,9 +8,9 @@ function scrambleData($originalData, $key) {
 	$data = '';
 	$length = strlen($originalData);
 
-	for($i = 0; $i < $length; $i++) {
+	for ($i = 0; $i < $length; $i++) {
 		$currentChar = $originalData[$i];
-		$position = strpos($originalKey,$currentChar);
+		$position = strpos($originalKey, $currentChar);
 		
         if ($position !== false) {
 			$data .= $key[$position];
@@ -27,7 +27,7 @@ function decodeData($originalData, $key) {
 	$data = '';
 	$length = strlen($originalData);
 
-	for($i = 0; $i < $length; $i++) {
+	for ($i = 0; $i < $length; $i++) {
 		$currentChar = $originalData[$i];
 		$position = strpos($key,$currentChar);
 		
@@ -40,3 +40,4 @@ function decodeData($originalData, $key) {
 
 	return $data;
 }
+?>
