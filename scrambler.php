@@ -10,8 +10,8 @@ $key = 'abcdefghijklmnopqrstuvwxyz1234567890';
 
 if ('key' == $task) {
 	$key_original = str_split( $key );
-	shuffle( $key_original );
-	$key = join( '', $key_original );
+	shuffle($key_original);
+	$key = join('', $key_original);
 } else if (isset($_POST['key']) && $_POST['key']!='') {
     $key = $_POST['key'];
 }
@@ -40,7 +40,7 @@ if ('decode' == $task) {
 <head>
     <meta charset="UTF-8">
     
-    <title>Form Example</title>
+    <title>Data Scrambler</title>
 
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
     <link rel="stylesheet" href="//cdn.rawgit.com/necolas/normalize.css/master/normalize.css">
