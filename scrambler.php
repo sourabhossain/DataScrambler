@@ -70,9 +70,9 @@ if('decode' == $task) {
             <h2>Data Scrambler</h2>
             <p>Use this application to scramble your data</p>
             <p>
-                <a href="/scrambler.php?task=encode">Encode</a> |
-                <a href="/scrambler.php?task=decode">Decode</a> |
-                <a href="/scrambler.php?task=key">Generate Key</a>
+                <a href="./scrambler.php?task=encode">Encode</a> |
+                <a href="./scrambler.php?task=decode">Decode</a> |
+                <a href="./scrambler.php?task=key">Generate Key</a>
             </p>
         </div>
     </div>
