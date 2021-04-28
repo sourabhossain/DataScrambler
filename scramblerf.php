@@ -1,6 +1,6 @@
 <?php
 function displayKey($key) {
-	printf( " value = '%s' ", $key );
+	printf("value = '%s' ", $key);
 }
 
 function scrambleData($originalData, $key) {

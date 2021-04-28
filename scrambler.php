@@ -6,7 +6,6 @@ if (isset($_GET['task']) && $_GET['task'] != '') {
 	$task = $_GET['task'];
 }
 
-
 $key = 'abcdefghijklmnopqrstuvwxyz1234567890';
 
 if ('key' == $task) {
